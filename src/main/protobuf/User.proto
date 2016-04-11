@@ -1,6 +1,6 @@
 package redis;
 
-option java_package = "com.caseyscarborough.spring.redis";
+option java_package = "com.henry.spring.redis";
 option java_outer_classname = "UserProtos";
 
 message User {
