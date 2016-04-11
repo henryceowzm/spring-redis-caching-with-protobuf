@@ -1,0 +1,15 @@
+package redis;
+
+option java_package = "com.caseyscarborough.spring.redis";
+option java_outer_classname = "UserProtos";
+
+message User {
+  required int64 id = 1;
+  required string userName = 2;
+  optional UserGroup userGroup = 3;
+}
+
+message UserGroup {
+  required int64 id = 1;
+  required string userGroupName = 2;
+}
