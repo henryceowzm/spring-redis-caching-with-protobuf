@@ -49,8 +49,17 @@ mvn clean jetty:run
 
     Server response body
 
-	<User><id>4</id><userName>\344\270\255\346\226\207\346\265\213\350\257\225-UserName-protobuf</userName><userGroup><id>4</id><userGroupName>\344\270\255\346\226\207\346\265\213\350\257\225-GroupName-protobuf</userGroupName></userGroup></User>
-
+	```xml
+	<User>
+		<id>4</id>
+		<userName>\344\270\255\346\226\207\346\265\213\350\257\225-UserName-protobuf</userName>
+		<userGroup>
+			<id>4</id>
+			<userGroupName>\344\270\255\346\226\207\346\265\213\350\257\225-GroupName-protobuf</userGroupName>
+		</userGroup>
+	</User>
+	```
+	
 3.  Fetch data from redis as json
 	
 	curl -H "Accept: application/json" http://localhost:8080/users/from-redis-protobuf/4
