@@ -401,7 +401,7 @@ public final class UserProtos {
                 com.henry.spring.redis.UserProtos.User.class, com.henry.spring.redis.UserProtos.User.Builder.class);
       }
 
-      // Construct using com.caseyscarborough.spring.redis.UserProtos.User.newBuilder()
+      // Construct using com.henry.spring.redis.UserProtos.User.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1111,7 +1111,7 @@ public final class UserProtos {
                 com.henry.spring.redis.UserProtos.UserGroup.class, com.henry.spring.redis.UserProtos.UserGroup.Builder.class);
       }
 
-      // Construct using com.caseyscarborough.spring.redis.UserProtos.UserGroup.newBuilder()
+      // Construct using com.henry.spring.redis.UserProtos.UserGroup.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1372,8 +1372,7 @@ public final class UserProtos {
       "\004User\022\n\n\002id\030\001 \002(\003\022\020\n\010userName\030\002 \002(\t\022#\n\tu" +
       "serGroup\030\003 \001(\0132\020.redis.UserGroup\".\n\tUser" +
       "Group\022\n\n\002id\030\001 \002(\003\022\025\n\ruserGroupName\030\002 \002(\t" +
-      "B/\n!com.caseyscarborough.spring.redisB\nU" +
-      "serProtos"
+      "B$\n\026com.henry.spring.redisB\nUserProtos"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
